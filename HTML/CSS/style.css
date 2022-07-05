@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'MS PMincho', 'MS Mincho', 'Yu Mincho', sans-serif;
+  font: size 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.header {
+  margin: 0 auto;
+  text-align: center;
+  margin: 5%;
+}
+
+.header h1 {
+  font-size: 64px;
+  letter-spacing: -0.05em;
+}
+
+.header a {
+  font-size: 24px;
+}
+
+.list ul {
+  display: flex;
+  list-style: none;
+}
+
+.list ul li {
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+}
+
+.list ul li:first-child {
+  border-left: 1px solid #ddd;
+}
+
+.list ul li a {
+  display: block;
+  font-size: 24px;
+}
+
+.header_img img {
+  margin: 0 auto;
+  width: 100%;
+  height: px;
+}
+
+.info {
+  text-align: center;
+}
+
+.map {
+  text-align: center;
+}
+
+.map h1 {
+  margin-bottom: 30px;
+}
