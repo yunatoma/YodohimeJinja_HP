@@ -37,13 +37,11 @@ a {
   border-right: 1px solid #ddd;
 }
 
-.list ul li:first-child {
-  border-left: 1px solid #ddd;
-}
 
 .list ul li a {
   display: block;
   font-size: 24px;
+  ;
 }
 
 .header_img img {
@@ -52,8 +50,23 @@ a {
   height: px;
 }
 
+.main {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .info {
   text-align: center;
+  margin-bottom: 30px;
+}
+
+.info h1 {
+  margin-bottom: 30px;
+}
+
+.info_box {
+  border: 1px solid black;
+  height: 300px;
 }
 
 .map {
@@ -62,4 +75,32 @@ a {
 
 .map h1 {
   margin-bottom: 30px;
+}
+
+.about {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.about h1 {
+  margin-bottom: 30px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px 2em;
+}
+
+.box div {
+  align-self: center;
+  border: 1px solid black;
+  height: 300px;
+
+}
+
+.access {
+  font-size: 20px;
+  list-style: none;
 }
