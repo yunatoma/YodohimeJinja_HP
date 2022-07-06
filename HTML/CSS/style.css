@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/* すべてに共通 */
 body {
   font-family: 'MS PMincho', 'MS Mincho', 'Yu Mincho', sans-serif;
   font: size 16px;
@@ -10,6 +10,15 @@ a {
   color: #333;
 }
 
+h1 {
+  font-size: 44px;
+}
+
+.mb-30 { 
+  margin-bottom: 30px;
+}
+
+/* ヘッダー */
 .header {
   margin: 0 auto;
   text-align: center;
@@ -47,22 +56,66 @@ a {
 .header_img img {
   margin: 0 auto;
   width: 100%;
-  height: px;
+  height: 900pxx;
 }
 
+
+/* メイン */
 .main {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
-.info {
+/* 與止日女神社について */
+.about {
   text-align: center;
   margin-bottom: 30px;
 }
 
-.info h1 {
-  margin-bottom: 30px;
+
+.box {
+  width: 490px;
 }
+
+.box img {
+  margin-bottom: 10px;
+}
+
+
+.about_boxes {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.about h2 { 
+  font-size: 32px;
+}
+.explain {
+  height: 90px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #F0F0E1;
+  padding: 15px 20px 12px;
+  font-size: 22px;
+}
+
+/* 動画埋め込み */
+.movie {
+text-align: center;
+}
+
+/* 情報 */
+.info {
+  text-align: center;
+}
+
 
 .info_box {
   border: 1px solid black;
@@ -73,34 +126,15 @@ a {
   text-align: center;
 }
 
-.map h1 {
-  margin-bottom: 30px;
-}
-
-.about {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-
-.about h1 {
-  margin-bottom: 30px;
-}
-
-.box {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 10px 2em;
-}
-
-.box div {
-  align-self: center;
-  border: 1px solid black;
-  height: 300px;
-
-}
 
 .access {
   font-size: 20px;
   list-style: none;
 }
+
+.footer {
+  background-color:#F0F0E1;
+  text-align: center;
+}
+
+
