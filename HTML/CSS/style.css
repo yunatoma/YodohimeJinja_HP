@@ -20,9 +20,8 @@ h1 {
 
 /* ヘッダー */
 .header {
-  margin: 0 auto;
+  margin: 0 0;
   text-align: center;
-  margin: 5%;
 }
 
 .header h1 {
@@ -33,6 +32,7 @@ h1 {
 .header a {
   font-size: 24px;
 }
+
 
 .list ul {
   display: flex;
@@ -56,7 +56,7 @@ h1 {
 .header_img img {
   margin: 0 auto;
   width: 100%;
-  height: 900pxx;
+  height: 900px;
 }
 
 
@@ -185,3 +185,63 @@ text-align: center;
   background-color:#F0F0E1;
   text-align: center;
 }
+
+
+/* footer */
+.footer a {
+  font-size: 18px;;
+}
+
+/* SNSアイコン */
+
+/* アイコン周り全体 */
+.flowbtn16{
+  font-family:'MS PMincho',sans-serif;
+  border-radius:4px;
+  display:inline-block;
+  width:66px;
+  height:58px;
+  font-size:30px;
+  transition:.5s;
+  text-decoration:none;
+  background-color:#444;
+  color:#fff;
+  }
+  .flowbtn16:hover{
+  text-decoration:none;
+  }
+  /* Twitterマウスホバー時 */
+  .flowbtn16.fl_tw2:hover{
+  background:#55acee;
+  }
+
+  /* Facebookマウスホバー時 */
+  .flowbtn16.fl_fb2:hover{
+  background:#3b5998;
+  }
+
+  /* ボタン内テキスト調整 */
+  .flowbtn16 div{
+  font-size:11px;	
+  letter-spacing:0;
+  font-weight:bold;
+  position:relative;
+  bottom:1px;
+  }
+  /* ulタグの内側余白を０にする */
+  ul.snsbtniti{
+  width: 10%;
+  padding:0!important;
+  margin : 0 auto;
+  }
+  /* アイコンボタンの位置調整 */
+  .snsbtniti{
+  justify-content: space-between; 
+  display:flex;
+  list-style-type:none!important;
+  }
+  /* アイコンボタン同士の余白調整 */
+  .snsbtniti li{
+  flex:0 0 2%;
+  text-align:center!important;
+  }
